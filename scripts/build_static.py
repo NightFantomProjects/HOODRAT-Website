@@ -25,6 +25,7 @@ for name in FILES:
 
 (DIST / "assets").mkdir()
 shutil.copytree(ROOT / "assets" / "optimized", DIST / "assets" / "optimized")
+shutil.copytree(ROOT / "assets" / "fonts", DIST / "assets" / "fonts")
 
 if not (DIST / "index.html").is_file():
     raise SystemExit("Static build failed: dist/index.html is missing")

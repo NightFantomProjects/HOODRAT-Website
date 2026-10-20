@@ -3,6 +3,10 @@
 **Approval status:** Approved by project owner on 2026-10-20
 **Project mode:** Static GitHub Pages-compatible website; no server, database, Tokly runtime, or paid hosting dependency.
 
+## Approved Template-Fidelity Correction — 2026-10-20
+
+The supplied full-page design reference is authoritative. The earlier mobile-first composition was rejected because it did not sufficiently match the reference. The implemented visual system therefore uses the reference’s compact dark header, wide neon graffiti lockup, left-copy/right-art hero, five-cell feature rail, paired Halloween/About panels, four-card Token Info plus two-link Quick Links row, horizontal roadmap, and compact footer. The local bundled display type is used for the wide graffiti treatment; supplied art remains scene-based rather than being used to flatten functional HTML sections.
+
 ## Scope and implementation approach
 
 The project will be a single semantic HTML page with repository-local assets, CSS, and vanilla JavaScript. It will recreate the supplied mockup’s order and hierarchy: sticky navigation, hero, five feature highlights, historical Halloween airdrop, About HOODRAT, token/live-market area, quick links, responsive roadmap, FAQ, and footer. Every red-marked reference control will be a real anchor or button. Blue-marked content will be sourced from one `config.js` file. Yellow-marked artwork will remain non-interactive image decoration.

@@ -127,6 +127,20 @@
   const currentYear = document.querySelector("#current-year");
   if (currentYear) currentYear.textContent = String(new Date().getFullYear());
 
+  const faqDialog = document.querySelector("#faq-modal");
+  if (faqDialog) {
+    document.querySelectorAll("[data-open-faq]").forEach((trigger) => {
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        faqDialog.showModal();
+      });
+    });
+    faqDialog.querySelector("[data-close-faq]")?.addEventListener("click", () => faqDialog.close());
+    faqDialog.addEventListener("click", (event) => {
+      if (event.target === faqDialog) faqDialog.close();
+    });
+  }
+
   if (config.site.publicOrigin) {
     const canonical = document.createElement("link");
     canonical.rel = "canonical";
