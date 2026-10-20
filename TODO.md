@@ -23,3 +23,7 @@ Support Android phones, iPhones, tablets, desktops and laptops without horizonta
 ## [x] Local verification, screenshots and safe handoff
 
 Run the site locally on the configured preview port, verify `GET /manus-routes.json`, inspect assets and link destinations, test desktop and mobile layouts, menu/FAQ/clipboard interactions, keyboard basics, no horizontal overflow, and browser console state. Capture actual desktop and mobile screenshots. Document real test results, deployment steps, custom-domain migration/rollback steps, known source limitations, and missing/approval-needed information. Prepare but do not activate GitHub Pages; do not publish, change DNS, change custom-domain hosting, or alter `hoodrat.onhood.cc`.
+
+## [x] Interaction and destination verification
+
+Verify every interactive control, button, and link routes to its proper destination. Confirm normal in-page navigation, keyboard skip navigation, FAQ dialog and accordion behavior, mobile-menu state and controls, external `target="_blank"` / `rel="noopener noreferrer"` protections, the owner-confirmed Ape.store purchase route, Blockscout contract route, DexScreener chart route, official site, X, and Discord route. Preserve a factual verification record and do not initiate any wallet or account action.

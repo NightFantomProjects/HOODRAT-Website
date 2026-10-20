@@ -30,7 +30,7 @@ window.HOODRAT_CONFIG = {
     contract: "0x05b806651e071dea47bd214008b632ddc7970ca4",
   },
   market: {
-    sourceName: "Ape.store public listing",
+    sourceName: "Ape.store / Blockscout public data",
     observedDate: "20 Oct 2026",
     snapshot: {
       price: "$0.000002",
@@ -38,7 +38,7 @@ window.HOODRAT_CONFIG = {
       marketCap: "$2.3K",
       volume24h: "$0",
       liquidity: "$52.578",
-      holders: "Unavailable",
+      holders: "121",
     },
     notice:
       "Snapshot values are recorded from the public listing and can change. Open Ape.store or DexScreener for live market activity.",

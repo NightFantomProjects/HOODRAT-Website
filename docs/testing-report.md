@@ -22,7 +22,7 @@ The local Rubik Wet Paint display font is bundled under its SIL Open Font Licens
 
 ## Data and functionality boundary
 
-The owner-confirmed contract is `0x05b806651e071dea47bd214008b632ddc7970ca4`, and Buy controls route to the matching Ape.store listing. The four-card Template Token Info row presents the contract through its Explorer link, matching the supplied design. A compact, source-labelled market snapshot and external live-chart destination remain available beneath those cards. No holder count is presented as current because it was not publicly verifiable during research.
+The owner-confirmed contract is `0x05b806651e071dea47bd214008b632ddc7970ca4`, and Buy controls route to the matching Ape.store listing. The four-card Template Token Info row presents the contract through its Explorer link, matching the supplied design. A compact, source-labelled market snapshot and external live-chart destination remain available beneath those cards. The holder snapshot is `121`, verified from the configured Blockscout token page on 2026-10-20; it is not represented as a real-time feed. See `docs/interaction-verification.md` for the full all-controls and destination audit.
 
 ## Not tested
 
